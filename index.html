@@ -35,7 +35,12 @@
             alert("O número "+numero+" possui valor zero.");
         }
         else{
-            alert("O número "+numero+" é negativo.");
+            if(numero == 0){
+                alert("O número"+numero+" tem valor zero");
+            }
+            else{
+                alert("A operação foi cancelada pelo usuário.");
+            }
         }
     }
 </script>
