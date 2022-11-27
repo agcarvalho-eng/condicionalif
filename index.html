@@ -31,15 +31,20 @@
         }
     }
     else{
-        if(numero == 0){
-            alert("O número "+numero+" possui valor zero.");
-        }
-        else{
-            if(numero < 0){
-                alert("O número"+numero+" é negativo");
+        if(numero < 0){
+            if(numero % 2 == 0){
+                alert("O número "+numero+ " é negativo e par.");
             }
             else{
-                alert("A operação foi cancelada pelo usuário.");
+                alert("O número "+numero+" é negativo e ímpar.");
+            }
+        }
+        else{
+            if(numero == 0){
+                alert("O número "+numero+" tem o valor zero.");
+            }
+            else{
+                alert("Operação cancelada pelo usuário.");
             }
         }
     }
