@@ -12,12 +12,6 @@ const numero = prompt("Digite um número inteiro e tecle entrer.");
             alert("O número "+numero+" possui valor zero.");
         }
         else{
-            if(numero < 0){
                 alert("O número "+numero+" é negativo");
-            }
-            else{
-            alert("Você cancelou a operação.")
-            }
-
         }
     }
